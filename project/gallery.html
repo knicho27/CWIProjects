@@ -1,13 +1,7 @@
-<html>
+<!DOCTYPE html>
 <head>
   
         <title>Currently for Sale</title>
-    
-    <link rel="stylesheet" type="text/css" href="shadowbox.css">
-<script type="text/javascript" src="shadowbox.js"></script>
-<script type="text/javascript">
-Shadowbox.init();
-</script>
      <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/stylesheet.css" rel="stylesheet">
@@ -26,6 +20,8 @@ Shadowbox.init();
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="galleria/galleria-1.3.4.min.js"></script>
   </head>
   <body>
       
@@ -73,21 +69,27 @@ Shadowbox.init();
 </div>
           
 <body>
+    <script>
+    $("body").text("jQuery works");
+</script>
+    
 <h1>Gallery</h1>
 <h2>Currently for Sale</h2>
+    
     <figure>
-<p><a href="paintingprofile1.html" rel="shadowbox"><img src="Images/gallery/enchant_thumb.jpg"></a></p>
- 
-    <img src="Images/gallery/48x48whiskmeaway2500.jpeg"><img src="Images/gallery/24x24onaclearday850frame.jpeg"></figure>
-    <p> <figure> 
-        <img src="Images/gallery/20x60vantagept1800.jpeg"></figure>
-        </p>
-    <figure> 
-    <img src="Images/gallery/48x6mosaic2-425.jpeg"><img src="Images/gallery/48x36Connections2200frame.jpeg"><img src="Images/gallery/48x12emeraldsong725.jpeg">
+        <script>
+    if (Galleria) { $("body").text('Galleria works') }
+</script>
+
+        <div class="galleria">
+            <img src="Images/gallery/enchant_thumb.jpg">
+            </div>
+            <script>
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+           </script>
     </figure>
-    
-    
-    </p>
+
     </body>
     </head>
 

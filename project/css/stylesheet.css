@@ -29,5 +29,7 @@ text-align:center;
     color: white;
 }
 
-
-
+.galleria {
+    width: 700px;
+    height: 400px;
+}
