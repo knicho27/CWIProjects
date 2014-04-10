@@ -1,5 +1,8 @@
-     <html>
-    <!-- Bootstrap -->
+<html>
+<head>
+  
+        <title>Currently for Sale</title>
+     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/stylesheet.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -8,25 +11,26 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-      
-          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="galleria/galleria-1.3.5.js"></script>
   </head>
-  <body><center>
-<img src="Images/sslogo3.png">
-      </center>
+    <body>
+<figure><center>
+    <a href="index.html"><img src="Images/sslogo3.png">
+    </figure></center>
+          
       <div class="container"><center>
      <div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    About the Artist <span class="caret"></span>
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">About the Artist <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
     <li><a href="about.html">Biography</a></li>
     <li><a href="awards.html">Awards</a></li>
     <li><a href="donations.html">Donations</a></li>
-    <li><a href="more.html">More</a></li>
+      <li><a href="more.html">More</a></li>
     <li class="divider"></li>
   </ul>
 </div>
@@ -61,15 +65,23 @@
     <li class="divider"></li>
   </ul>
 </div>
-          
-          <figure>
-          <img src="Images/more.png">
-              
-          
-          </figure>
-          
-          
-          </html>
-          
-          
-          
+    </body>
+    <body>
+        
+    <h1>Past Works</h1>
+
+     <div class="galleria">
+         <img src="Images/old/Fireball%20-%20cropped.jpg">
+         <img src="Images/old/Music1.jpg">
+         <img src="Images/old/DSC_0108.JPG">
+         <img src="Images/old/Impulse.jpg">
+         <img src="Images/old/Daydreams,%20again%20-%20cropped.jpg">
+         </div>
+        
+         <script>
+            Galleria.loadTheme('galleria/themes/folio/galleria.folio.min.js');
+            Galleria.run('.galleria');
+        </script>
+        
+        </body>
+    
