@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Spika Studio</title>
+    <title>K Nicholson Design</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -15,11 +15,19 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="galleria/galleria-1.3.5.js"></script>
+  </head>
       
       <figure><center>
-      <img src="Images/sslogo3.png">
-        
+      <img src="Images/KNLogo1.png">
+      
       </figure></center>
+    
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -28,98 +36,42 @@
   <body>
       
       <div class="container"><center>
+          
+          <div class="row">
      <div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    About the Artist <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="about.html">Biography</a></li>
-    <li><a href="awards.html">Awards</a></li>
-    <li><a href="donations.html">Donations</a></li>
-    <li><a href="more.html">More</a></li>
-    <li class="divider"></li>
+ <button type="button" class="btn btn-info">About</button>
   </ul>
 </div>
           
           <div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Gallery <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="gallery.html">Currently for Sale</a></li>
-    <li><a href="pastworks.html">Past Works</a></li>
-      <li><a href="pricelist.html">Price List</a></li>
-    <li class="divider"></li>
+ <button type="button" class="btn btn-info">Experience</button>
   </ul>
 </div>
-          <div class="btn-group">
+          <div class="btn-group""container">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Calendar <span class="caret"></span>
+    Examples <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
-    <li><a href="calendar.html">2014 Art Festivals</a></li>
+    <li><a href="">Logo Design</a></li>
     <li class="divider"></li>
   </ul>
-</div>
-          
           <div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Contact <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="contact.html"></a></li><a href="mailto:pam@spikastudio.com"> Email Pam </li>
+ <button type="button" class="btn btn-info">Contact</button>    
+    </ul>
+      </div>
     
-    <li class="divider"></li>
-  </ul>
-</div>
-          
-          
-<!--------------------------          Slideshow ------------------>
-      <div class="row"></div>
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+<div class ="galleria">        
+          <img src="Images/legend_theatre%20logo_2.jpg">
+          <img src="Images/ccc_nanalogo_6_1_2al.jpg">
+          <img src="Images/connect_final1.png">
+          <img src="Images/Once%20Upon%20a%20Mattressposter%202.png">
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="slideshow/connections_thumb.jpg">
-      <div class="carousel-caption">
-        Connections 
-      </div>
-    </div>
-      <div class="item">
-         <img src="slideshow/whiskmeaway_thumb.jpg">
-      <div class="carousel-caption">
-       Whisk Me Away 
-      </div>
-    </div>
-      
-       <div class="item">
-         <img src="slideshow/enchant_thumb.jpg">
-      <div class="carousel-caption">
-         Enchant 
-      </div>
-    </div>
-  </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-      
-      </div>
+ </div>
+        <script>
+            Galleria.loadTheme('galleria/themes/folio/galleria.folio.min.js');
+            Galleria.run('.galleria');
+        </script>
 
-          
-<!--------------------------      End of Slideshow ------------------>
-
-  </body>
+</body>
 </html>
