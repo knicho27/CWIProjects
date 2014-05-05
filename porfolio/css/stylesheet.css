@@ -25,12 +25,12 @@ color:white;
 
 text-align:center;
     font-size: 18px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
 }
 
 .galleria {
-    width: 800px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     background: grey;
 }
