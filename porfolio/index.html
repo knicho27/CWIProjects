@@ -32,17 +32,21 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </head>
-      <div class="container"><center>         
-                  
+
+      <div class="container"><center>            
+      <button type="button" class="btn btn-primary btn-lg"><a href="about.html">About</button>
+      <button type="button" class="btn btn-default btn-lg"><a href="contact.html">Contact</button>
 <div class="btn-group">      
-<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Portfolio<span class="caret"></span></button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="logos.html">Logo Design></a></li>  
-    <li><a href="">Posters</a></li>
-      </ul>
-    </div>
-          
-          
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><a href="gallery.html"></a>Portfolio<span class="caret"></span></button>
+
+    <div class="dropdown"></div>
+     <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <a data-toggle="dropdown" a href="logos.html">Logo Design</a>
+              <a data-toggle="dropdown" a href="logos.html"> Photoshop</a>
+                   </ul>
+                  </div>
+      
+      
         <body>    
 <div class ="galleria">        
           <img src="Images/legend_theatre%20logo_2.jpg">
@@ -50,10 +54,14 @@
           <img src="Images/connect_final1.png">
           <img src="Images/Once%20Upon%20a%20Mattressposter%202.png">
           <img src="Images/snowwhite_ouat1.jpg">
+    <img src="Images/Cinderella_1.jpg">
+    <img src="Images/enchanted_giselle1.jpg">
+    
+</div>    
         <script>
             Galleria.loadTheme('galleria/themes/folio/galleria.folio.min.js');
             Galleria.run('.galleria');
         </script>
-</div>
+
 </body>
 </head>
